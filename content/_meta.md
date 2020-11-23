@@ -4,5 +4,5 @@ Tagline: En webbdesigners webbplats.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Kite1717/design-example
-      icon: github
+      icon: fab fa-github
 ---
