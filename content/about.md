@@ -1,29 +1,17 @@
 ---
-Title: Handla om
+Title: About
 Description: Min om-sida.
 ---
 
 
-Om sidan
+About Page
 ==========================
 
-Jag går just nu på BTH och pluggar webprogrammering.
+I am currently student at  BTH and study web programming HT20.
 
-Mina tidigare erfarenheter inkluderar studier på KTH samt arbete inom IT branschen.
+I studied Computer Engineering Program at KTH and currently working for an International Bank as Cloud Engineer. In my day to day tasks I like to read books and cooking with friends. I hope with Web programming course I can improve my web dev skills. 
 
+Thank you for visiting my page.
 
-Jag strävar efter att utvecklas ständigt, således jag valde BTHs utbildning inom webbprogrammering.
+</>Ahmet
 
-Jag tycker detta är ett intressant område att utveckla sig.
-
-Jag pratar svenska, engelska, turkiska samt tyska.
-
-Just nu lär jag mig Italienska som min femte språket.
-
-Gillar att resa och har besökt de flesta länder i Europa.
-
-PÅ fritiden jag gillar att baka och att umgås med mina vänner.
-
-Eller läsa en bok eller lära mig om nya saker.
-
-Hoppas allt kommer att bli spänande under utbildningen.

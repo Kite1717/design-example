@@ -1,11 +1,12 @@
 ---
-Title: Hem
+Title: Home
 Description: Hemsida.
 ---
 
-Om Mig Själv
+Welcome!
 ==========================
 
-Här är jag!
-Ahmet Fisencki, en 26 årig student full av energi och hungrig att lära mig nya saker.
+Hello World! {{{{=)}}}}
+
+Welcome to my page. I am Ahmet Fisenkci and the editor of this page. 
 

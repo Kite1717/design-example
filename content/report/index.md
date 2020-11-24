@@ -1,12 +1,10 @@
 ---
-Title: Rapportera
+Title: Report
 Description: Min rapportsida.
 ---
 
-Rapportera
+Reports
 ==========================
-
-## Kmom01
 
 * [kmom01](report/kmom01)
 * [kmom02](report/kmom02)

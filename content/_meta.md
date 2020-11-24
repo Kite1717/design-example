@@ -1,6 +1,6 @@
 ---
 Logo: image/logo.png
-Tagline: En webbdesigners webbplats.
+Tagline: A Web Designers Website.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Kite1717/design-example
