@@ -1,6 +1,7 @@
 ---
 Title: About
 Description: Min om-sida.
+icon : fas fa-address-card
 ---
 
 

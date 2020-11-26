@@ -1,6 +1,7 @@
 ---
 Title: Example
 Description: Markdown examples.
+icon : fab fa-sketch
 # hidden: true
 ---
 

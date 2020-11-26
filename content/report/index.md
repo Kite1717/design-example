@@ -1,6 +1,7 @@
 ---
 Title: Report
 Description: Min rapportsida.
+icon : fas fa-bug
 ---
 
 Reports
