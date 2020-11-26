@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="{{ theme_url }}/../shared/img/myfavicon.ico">
-    <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
+    <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
+    <title>{% if meta.title %}{{ meta.title }}  {% endif %}{{ site_title }}</title>
 
     {% if meta.description %}
         <meta name="description" content="{{ meta.description|striptags }}" />
@@ -17,7 +17,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" />
+    <!-- Insert font choice here -->
+    {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
+    <!-- End -->
+    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 
 </head>
 <!-- "Widescreen-mode" can be activated in portfolio/config/config.yml -->
@@ -35,6 +39,7 @@
                     </a>
                 </div>
             {% endif %}
+            
             <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
                 <a href="{{ "index"|link }}">
                     <h1>{{ site_title }}</h1>
@@ -44,21 +49,27 @@
             <div class="nav">
                 <div id="nav" role="navigation" tabindex="-1">
                     <ul>
-                        {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
+                 
+                       {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                             <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                <a href="{{ page.url }}">{{ page.title }}</a>
+                                <a href="{{ page.url }}">
+                                    {% if page.meta.icon %}
+                                        <i class="{{ page.meta.icon }}"></i>
+                                    {% else %}
+                                        {{ page.title }}
+                                    {% endif %}
+                                </a>
                             </li>
                         {% endfor %}
                     </ul>
                 </div>
             </div>
-            <div class="flash-region borde">
-              <img class="flash-img" src="{{ base_url }}/image/me.jpg">
-            </div>
+           
         </div>
     </div>
     <div class="main" role="main">
         <div class="container">
+        <h1>The layout will be updated with time</h1>
             {{ content }}
         </div>
     </div>
@@ -74,7 +85,7 @@
                 {% endfor %}
             </div>
             <p>
-                En footer med lite text.
+                Ahmet Fisenkci @2020
             </p>
         </div>
     </div>
