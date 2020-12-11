@@ -1,6 +1,7 @@
 ---
 Title: Kmom03
 Description: Del 3
+Template: kmom
 ---
 
 Kursdel 3

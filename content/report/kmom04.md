@@ -1,6 +1,7 @@
 ---
 Title: Kmom04
 Description: Del 4
+Template: kmom
 ---
 
 Kursdel 4

@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass aurora/scss/style.scss aurora/css/style.css --no-source-map",
-    "watch-min": "sass aurora/scss/style.scss aurora/css/style.min.css --no-source-map --style compressed --watch",
-    "style": "sass aurora/scss/style.scss aurora/css/style.css --no-source-map",
-    "style-min": "sass aurora/scss/style.scss aurora/css/style.min.css --no-source-map --style compressed"
+    "watch": "sass emre-theme/scss/style.scss emre-theme/css/style.css --no-source-map",
+    "watch-min": "sass emre-theme/scss/style.scss emre-theme/css/style.min.css --no-source-map --style compressed --watch",
+    "style": "sass emre-theme/scss/style.scss emre-theme/css/style.css --no-source-map",
+    "style-min": "sass emre-theme/scss/style.scss emre-theme/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

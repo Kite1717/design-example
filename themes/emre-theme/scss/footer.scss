@@ -1,0 +1,23 @@
+.footer {
+    background: $background-footer;
+    color: $black;
+}
+
+.footer a {
+    color: $white;
+}
+
+.footer a:hover {
+    color: $dark-orange;
+}
+
+.footer p {
+    margin: 0;
+    padding: 1.6rem 0;
+}
+
+.footer .social {
+    float: right;
+    padding: ($magic-number / 4) 0;
+    font-size: 2rem;
+}

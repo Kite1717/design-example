@@ -1,6 +1,7 @@
 ---
 Title: Kmom10
 Description: Del Slutlig
+Template: kmom
 ---
 
 Kursdel Slutlig
