@@ -18,7 +18,7 @@ Analysis
 <div class="kmom-box">
 <a href="analysis/02_load"><h5>Load</h5>
 <i class="fas fa-chevron-right"></i>
-<p>Kommer inom kort!</p></a>
+<p>Loading speed is the focus of this analysis.</p></a>
 </div>
 
 <div class="kmom-box">
