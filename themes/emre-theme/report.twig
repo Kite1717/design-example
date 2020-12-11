@@ -17,10 +17,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <!-- Insert font choice here -->
-    {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
-    <!-- End -->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 
 </head>
 
@@ -61,6 +62,16 @@
                                 </a>
                             </li>
                         {% endfor %}
+                         <li>
+                            <a href="?action=theme">
+                                <i class="fas fa-moon" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="?action=session_destroy">
+                                <i class="fas fa-trash-alt" aria-hidden="true"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>

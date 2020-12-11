@@ -4,19 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass emre-theme/scss/style.scss emre-theme/css/style.css --no-source-map",
-    "watch-min": "sass emre-theme/scss/style.scss emre-theme/css/style.min.css --no-source-map --style compressed --watch",
-    "style": "sass emre-theme/scss/style.scss emre-theme/css/style.css --no-source-map",
-    "style-min": "sass emre-theme/scss/style.scss emre-theme/css/style.min.css --no-source-map --style compressed"
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "style-light": "sass emre-theme/scss/style.scss emre-theme/css/style.css --no-source-map",
+    "style-light-min": "sass emre-theme/scss/style.scss emre-theme/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass emre-theme/scss/style-dark.scss emre-theme/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass emre-theme/scss/style-dark.scss emre-theme/css/style-dark.min.css --no-source-map --style compressed",
+    "watch": "sass emre-theme/scss/style.scss:emre-theme/css/style.css emre-theme/scss/style-dark.scss:emre-theme/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass emre-theme/scss/style.scss:emre-theme/css/style.css emre-theme/scss/style-dark.scss:emre-theme/css/style-dark.css --no-source-map --style compressed --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "node-sass": "^5.0.0",
     "normalize.css": "^8.0.1",
     "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
     "stylelint": "^13.7.2",
     "stylelint-config-sass-guidelines": "^7.1.0"
   },

@@ -9,14 +9,28 @@ $background-colour: #000;
 $white: #fff;
 $black: #333;
 $pink: #ffc0cb;
-$highlighter: #f00;
+$highlighter: rgb(0 , 255 , 195);
 $accent: #2fd5ff;
 
 $background-gradient: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 
-$background-footer: linear-gradient(0deg , rgba(34 , 193 , 195 , 1) 0% , rgba(253 , 187 , 45 , 1) 100%);
+$dark-background-footer: linear-gradient(0deg , rgba(34 , 193 , 195 , 1) 0% , rgba(253 , 187 , 45 , 1) 100%);
+$dark-background-header: linear-gradient(90deg ,  rgba(131 , 58 , 180 , 1) 0% ,  rgba(253 , 29 , 29 , 1) 50% ,  rgba(252 , 176 , 69 , 1) 100%);
 
 
 $font-size: 1.4em;
 $line: 1.4;
 $magic-number: $font-size * $line;
+
+
+// DARK THEME VARS
+$background-footer: linear-gradient(0deg , rgb(97, 33, 208) 0% , rgb(49, 48, 46) 100%);
+$background-header: linear-gradient(90deg ,  rgb(23 , 62 , 71) 0% ,  rgb(70 , 84 , 18) 50% ,  rgb(88 , 13 , 69) 100%);
+$dark-background-colour: #131316;
+$dark-surface-colour: #1b1f22;
+$dark-front-colour: #4a4a4e;
+$dark-light-colour: #787d87;
+$dark-highlight-colour: #cce7b1;
+$dark-brighter-highlight: #1bc91b;
+$dark-colour-accent: #15c2cb;
+

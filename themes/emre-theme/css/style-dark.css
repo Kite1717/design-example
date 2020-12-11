@@ -14710,3 +14710,106 @@ button::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
+.header {
+  background-color: linear-gradient(90deg, #173e47 0%, #465412 50%, #580d45 100%);
+  background-size: cover;
+}
+
+.logo img {
+  filter: invert(25%);
+}
+
+.title * {
+  color: #cce7b1;
+}
+
+.header i {
+  color: #cce7b1;
+}
+
+.divider {
+  filter: grayscale(60%);
+}
+
+.main {
+  flex: 1 0 auto;
+  background-color: #1b1f22;
+  color: #cce7b1;
+}
+
+.main img {
+  filter: brightness(0.7) contrast(1.2);
+}
+
+a:hover,
+i:hover {
+  color: #00ffc3;
+}
+
+a {
+  color: #15c2cb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #cce7b1;
+}
+
+.landingpage h1 {
+  color: #787d87;
+}
+
+.landingpage h5 {
+  background-color: #131316;
+  color: #787d87;
+}
+
+.kmom-box.project,
+.kmom-box {
+  background-color: #4a4a4e;
+  border-top: 0;
+  border-right: 0;
+}
+
+.kmom-box a {
+  color: #cce7b1;
+}
+
+.knom-box a:hover {
+  color: #15c2cb;
+}
+
+.kmom-box i {
+  color: #00ffc3;
+  filter: brightness(70%);
+}
+
+.report {
+  border-left: 1px solid #15c2cb;
+}
+
+.sidebar i {
+  color: #15c2cb;
+}
+
+.sidebar a h5:hover {
+  color: #15c2cb;
+}
+
+.footer {
+  background: linear-gradient(0deg, #6121d0 0%, #31302e 100%);
+  color: #fff;
+}
+
+.footer i {
+  color: #4a4a4e;
+}
+
+.footer i:hover {
+  color: #15c2cb;
+}
